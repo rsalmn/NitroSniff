@@ -1,8 +1,7 @@
 const Discord = require('discord.js')
 const client = new Discord.Client();
 const axios = require('axios').default;
-const token = require('./token.json')
-
+const token = process.env.BOT_TOKEN;
 
 client.on('ready', () => {
     console.log(`Nitro Sniper Enabled...`);
@@ -23,7 +22,7 @@ client.on('message', message => {
             url: `https://discordapp.com/api/v6/entitlements/gift-codes/${NitroCode}/redeem`, 
             headers: 
             {
-            'Authorization': token 
+            'Authorization': process.env.BOT_TOKEN 
             }
         }).then(
             () => console.log(`Successfully redeemed in: ${message.guild.name}`)
@@ -31,4 +30,4 @@ client.on('message', message => {
     }
 })
 
-client.login(token)
+client.login(process.env.BOT_TOKEN);
