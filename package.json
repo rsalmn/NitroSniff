@@ -1,0 +1,42 @@
+{
+  "name": "kazion-nitro-sniper",
+  "version": "1.0.0",
+  "description": "my github is @kazion#1337",
+  "main": "sniper.js",
+  "dependencies": {
+    "1337": "^1.0.1",
+    "ascii-art": "^2.5.0",
+    "countdown": "^2.6.0",
+    "crypto-price": "^0.0.6",
+    "cat-facts": "^1.0.2",
+    "discord.js": "11.3.2",
+    "discord.js-commando": "^0.10.0",
+    "hastebin": "^0.2.1",
+    "insult-compliment": "^1.1.4",
+    "ipapi.co": "^0.3.0",
+    "is-reachable": "^4.0.0",
+    "math-expression-evaluator": "^1.2.22",
+    "moment": "^2.26.0",
+    "ms": "^2.1.2",
+    "node-superfetch": "^0.1.10",
+    "node-url-shortener": "^1.0.1",
+    "pokemon-images": "^2.0.1",
+    "random-emoji": "^1.0.2",
+    "random-hex-color": "^1.0.1",
+    "relevant-urban": "^2.0.0",
+    "request": "^2.88.2",
+    "superagent": "^5.2.2",
+    "translate-google": "^1.3.5",
+    "yt-search": "^1.1.2",
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sniper.js"
+  },
+  "keywords": [],
+  "author": "cex",
+  "license": "ISC"
+}
