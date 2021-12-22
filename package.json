@@ -4,9 +4,14 @@
   "description": "github garudaprojects",
   "main": "sniper.js",
   "dependencies": {
-    "discord.js",
-    "discordjs",
+    "discord.js": "^13.3.0",
     "axios": "^0.19.2"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://github.com/ZeroDiscord/Giveaway"
   },
   "devDependencies": {},
   "scripts": {
