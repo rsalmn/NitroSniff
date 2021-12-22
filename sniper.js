@@ -1,5 +1,5 @@
-const Discord = require('discord.js')
-const client = new Discord.Client();
+const Discord = require("discord.js");
+const client = new Discord.Client({ intents: 7753 });
 const axios = require('axios').default;
 const token = process.env.BOT_TOKEN;
 
