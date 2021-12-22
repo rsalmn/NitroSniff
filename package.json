@@ -1,10 +1,11 @@
 {
   "name": "garudaprojets-nitrosniff",
   "version": "1.0.0",
-  "description": "github GarudaProjects",
+  "description": "github garudaprojects",
   "main": "sniper.js",
   "dependencies": {
-    "discord.js": "11.3.2",
+    "discord.js",
+    "discordjs",
     "axios": "^0.19.2"
   },
   "devDependencies": {},
