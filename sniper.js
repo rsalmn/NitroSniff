@@ -22,7 +22,7 @@ client.on('message', message => {
             url: `https://discordapp.com/api/v6/entitlements/gift-codes/${NitroCode}/redeem`, 
             headers: 
             {
-            'Authorization': process.env.BOT_TOKEN 
+            'Authorization': token 
             }
         }).then(
             () => console.log(`Successfully redeemed in: ${message.guild.name}`)
